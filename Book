@@ -1,0 +1,22 @@
+package com.JavaFundamentals2;
+
+class Book {
+    String availability = "available";
+    String name;
+    int isbn;
+    String authorName;
+    int nrOfPages;
+    String editorialName;
+    String kindOfLiterature;
+    double price;
+
+    public Book(String name, int isbn, String authorName, int nrOfPages, String editorialName, String kindOfLiterature, double price) {
+        this.name = name;
+        this.isbn = isbn;
+        this.authorName = authorName;
+        this.nrOfPages = nrOfPages;
+        this.editorialName = editorialName;
+        this.kindOfLiterature = kindOfLiterature;
+        this.price = price;
+    }
+}
